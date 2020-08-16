@@ -5,3 +5,4 @@
 - [] equal null
 - [] equal object
 - [x] Franc class
+- [] Compare 2 currentcy
