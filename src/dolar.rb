@@ -6,7 +6,7 @@ class Dolar
   end
 
   def times(value)
-    @amount *= value
+    Dolar.new amount * value
   end
 
   def ==(dolar)

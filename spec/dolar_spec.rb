@@ -6,9 +6,12 @@ describe Dolar do
     let(:amount) { 2 }
     let(:dolar) { Dolar.new amount }
     it 'returns correct value' do
-      dolar.times(2)
-      dolar.times 3
-      expect(dolar.amount).to eq amount * 2 * 3
+      expect(dolar.times 2).to eq Dolar.new amount * 2
+    end
+
+    it 'returns correct value with multiple times' do
+      expect(dolar.times 2).to eq Dolar.new amount * 2
+      expect(dolar.times 3).to eq Dolar.new amount * 3
     end
   end
 
