@@ -1,0 +1,7 @@
+- [x] Dolar class
+- [x] `.times` method
+- [] money rounding
+- [] `hash_code`
+- [] equal null
+- [] equal object
+- [x] Franc class
